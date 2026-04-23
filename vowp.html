@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Visitor to Work Permit (VOWP) Canada | Brightlight Immigration</title>
+<meta content="Convert your visitor visa to a work permit from inside Canada without leaving. Start your journey with expert guidance from Brightlight Immigration." name="description"/>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Icons & Sliders -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A2540',
+                        secondary: '#3B82F6',
+                        light: '#F8FAFC',
+                        dark: '#0F172A'
+                    },
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+<!-- Custom CSS -->
+<style>
+        body { -webkit-font-smoothing: antialiased; }
+        .glass-panel { background: rgba(255, 255, 255, 0.90); backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05); }
+        .text-gradient { background: linear-gradient(135deg, #0A2540 0%, #1E3A8A 40%, #2563EB 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .blob { position: absolute; filter: blur(90px); z-index: 0; opacity: 0.6; animation: float 12s ease-in-out infinite; mix-blend-mode: multiply; }
+        @keyframes float { 0% { transform: translateY(0px) scale(1); } 50% { transform: translateY(-20px) scale(1.05); } 100% { transform: translateY(0px) scale(1); } }
+        [x-cloak] { display: none !important; }
+        
+        .swiper-pagination-bullet-active { background-color: #2563EB !important; transform: scale(1.2); }
+        .swiper-pagination-bullet { transition: all 0.3s ease; }
+        
+        /* Custom radio buttons - Enhanced */
+        .option-label { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); border: 2px solid #e2e8f0; display: flex; align-items: center; justify-content: center; transform: translateY(0); background: #ffffff; }
+        .option-label:hover { border-color: #93C5FD; transform: translateY(-3px); box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.1); }
+        input[type="radio"]:checked + .option-label { border-color: #2563EB; background-color: #EFF6FF; color: #1E3A8A; font-weight: 700; box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.25); transform: scale(1.02) translateY(-2px); border-width: 2px; }
+        
+        .input-field { width: 100%; padding: 1.1rem; border: 2px solid #e2e8f0; border-radius: 0.75rem; transition: all 0.3s ease; outline: none; font-family: inherit; background: #f8fafc; }
+        .input-field:focus { border-color: #2563EB; background: #ffffff; box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15); transform: translateY(-1px); }
+        
+        /* Component enhancements */
+        .feature-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); border: 1px solid rgba(255,255,255,0.5); }
+        .feature-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px -10px rgba(10, 37, 64, 0.1); border-color: rgba(59, 130, 246, 0.3); }
+        
+        .btn-primary { transition: all 0.3s ease; background-size: 200% auto; background-image: linear-gradient(to right, #0A2540 0%, #1D4ED8 51%, #0A2540 100%); }
+        .btn-primary:hover { background-position: right center; transform: translateY(-2px); box-shadow: 0 10px 20px -5px rgba(29, 78, 216, 0.4); }
+    
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .animate-fade-in-up { animation: fadeInUp 0.8s ease-out forwards; animation-delay: 0.5s; opacity: 0; }
+        </style>
+<!-- Alpine.js -->
+<script defer="" src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+<script defer="" src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="font-sans text-gray-700 bg-light overflow-x-hidden">
+<!-- Navbar -->
+<nav :class="{'glass-panel py-3 shadow-sm': scrolled, 'bg-transparent py-5': !scrolled}" @scroll.window="scrolled = (window.pageYOffset &gt; 20)" class="fixed w-full z-50 transition-all duration-300" x-data="{ scrolled: false, mobileMenu: false }">
+<div class="container mx-auto px-6 lg:px-12 flex justify-between items-center">
+<a class="flex items-center gap-2" href="#">
+<img alt="Brightlight Immigration" class="h-10 lg:h-12 object-contain" src="https://res.cloudinary.com/dkqo3uz5o/image/upload/v1776959120/brlightlight-icon_r07dqm.webp"/>
+</a>
+<!-- Desktop Menu -->
+<div class="hidden lg:flex items-center gap-8 font-medium text-primary">
+<a class="hover:text-secondary transition-colors" href="#about">Program Details</a>
+<a class="hover:text-secondary transition-colors" href="#process">How it Works</a>
+<a class="hover:text-secondary transition-colors" href="#testimonials">Success Stories</a>
+<a class="hover:text-secondary transition-colors" href="#faq">FAQ</a>
+</div>
+<!-- CTA & Mobile Toggle -->
+<div class="flex items-center gap-4">
+<a class="hidden md:flex bg-primary hover:bg-[#133a60] text-white px-6 py-3 rounded-full font-semibold transition-all transform hover:scale-105 shadow-lg items-center gap-2" href="#apply-section">
+<span>Start Assessment</span> <i class="fa-solid fa-arrow-right mt-[2px]"></i>
+</a>
+<button @click="mobileMenu = !mobileMenu" class="lg:hidden text-primary text-2xl focus:outline-none">
+<i class="fa-solid fa-bars" x-show="!mobileMenu"></i>
+<i class="fa-solid fa-xmark" x-cloak="" x-show="mobileMenu"></i>
+</button>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div class="lg:hidden bg-white shadow-xl absolute w-full left-0 top-full" x-collapse="" x-show="mobileMenu">
+<div class="flex flex-col px-6 py-4 gap-4 font-medium text-primary">
+<a @click="mobileMenu = false" href="#about">Program Details</a>
+<a @click="mobileMenu = false" href="#process">How it Works</a>
+<a @click="mobileMenu = false" href="#testimonials">Success Stories</a>
+<a @click="mobileMenu = false" class="bg-secondary text-white text-center py-3 rounded-xl" href="#apply-section">Start Assessment</a>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="relative min-h-screen pt-32 pb-20 lg:pt-40 lg:pb-32 flex items-center overflow-hidden bg-gradient-to-br from-blue-50/50 via-white to-blue-50/30">
+<!-- Background Blobs -->
+<div class="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none">
+<div class="blob bg-blue-400 w-[500px] md:w-[700px] h-[500px] md:h-[700px] rounded-full top-[-150px] right-[-150px] opacity-40 mix-blend-multiply"></div>
+<div class="blob bg-teal-300 w-[600px] md:w-[900px] h-[600px] md:h-[900px] rounded-full bottom-[-250px] left-[-250px] opacity-30 mix-blend-multiply"></div>
+</div>
+<div class="container mx-auto px-6 lg:px-12 relative z-10">
+<div class="max-w-5xl mx-auto text-center flex flex-col items-center">
+<!-- Text Content -->
+<div class="gsap-reveal flex flex-col items-center">
+<div class="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 text-blue-700 rounded-full font-semibold text-sm mb-6 border border-blue-200">
+<i class="fa-solid fa-plane-arrival"></i> Visitor to Work Permit
+                    </div>
+<h1 class="text-5xl md:text-6xl lg:text-[5.5rem] font-extrabold text-primary leading-tight tracking-tight mb-6 drop-shadow-sm">
+                        Turn Your Visit into a <span class="text-gradient">Career Opportunity</span>
+</h1>
+<p class="text-xl md:text-2xl text-gray-600 mb-10 leading-relaxed max-w-4xl mx-auto">
+                        The Visitor to Work Permit public policy allows foreign nationals in Canada as visitors to apply for an employer-specific work permit without having to leave the country. This helps fill labor shortages and gives you a pathway to permanent residency. Our RCIC-licensed experts handle everything for you.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-8 justify-center w-full mt-4">
+<div class="flex items-center gap-4 bg-white/60 backdrop-blur-md px-8 py-4 rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-white hover:-translate-y-1 hover:bg-white/90 transition-all duration-300 cursor-default">
+<div class="w-12 h-12 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-xl">
+<i class="fa-solid fa-check"></i>
+</div>
+<div>
+<h4 class="font-bold text-primary">No Exit Required</h4>
+<p class="text-sm text-gray-500">Apply from inside Canada</p>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-white/60 backdrop-blur-md px-8 py-4 rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-white hover:-translate-y-1 hover:bg-white/90 transition-all duration-300 cursor-default">
+<div class="w-12 h-12 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-xl">
+<i class="fa-solid fa-clock"></i>
+</div>
+<div>
+<h4 class="font-bold text-primary">Fast Processing</h4>
+<p class="text-sm text-gray-500">Expert document handling</p>
+</div>
+</div>
+</div>
+<div class="mt-12 flex flex-col items-center w-full"><a class="btn-primary text-white px-12 py-5 rounded-full font-extrabold text-2xl inline-flex items-center gap-4 shadow-[0_10px_40px_-10px_rgba(37,99,235,0.6)] hover:shadow-[0_20px_50px_-10px_rgba(37,99,235,0.7)] ring-4 ring-blue-500/20 hover:ring-blue-500/40 transform hover:-translate-y-2 transition-all duration-300" href="#apply-section">Start Assessment <i class="fa-solid fa-arrow-down animate-bounce"></i></a>
+<div class="mt-8 flex flex-col sm:flex-row items-center gap-4 animate-fade-in-up">
+<div class="flex -space-x-4">
+<img alt="Applicant" class="w-12 h-12 rounded-full border-2 border-white shadow-md object-cover" src="https://i.pravatar.cc/100?img=1"/>
+<img alt="Applicant" class="w-12 h-12 rounded-full border-2 border-white shadow-md object-cover" src="https://i.pravatar.cc/100?img=2"/>
+<img alt="Applicant" class="w-12 h-12 rounded-full border-2 border-white shadow-md object-cover" src="https://i.pravatar.cc/100?img=3"/>
+<img alt="Applicant" class="w-12 h-12 rounded-full border-2 border-white shadow-md object-cover" src="https://i.pravatar.cc/100?img=4"/>
+<div class="w-12 h-12 rounded-full border-2 border-white shadow-md bg-blue-50 flex items-center justify-center text-blue-700 font-extrabold text-sm relative z-10">+5k</div>
+</div>
+<div class="text-left">
+<div class="flex text-yellow-400 text-sm drop-shadow-sm">
+<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+</div>
+<div class="text-sm text-gray-600 font-bold mt-1">Trusted by 5,000+ applicants</div>
+</div>
+</div>
+</div></div>
+<!-- Form Section -->
+</div>
+</div>
+</section>
+<!-- Trust Bar -->
+<section class="border-y border-gray-200 bg-white py-10">
+<div class="container mx-auto px-6 lg:px-12">
+<div class="flex flex-wrap justify-center gap-10 md:gap-20 opacity-70">
+<div class="flex items-center gap-3 font-bold text-xl text-primary"><i class="fa-solid fa-certificate text-secondary text-3xl"></i> RCIC Licensed</div>
+<div class="flex items-center gap-3 font-bold text-xl text-primary"><i class="fa-solid fa-trophy text-secondary text-3xl"></i> 5000+ Visas</div>
+<div class="flex items-center gap-3 font-bold text-xl text-primary"><i class="fa-solid fa-star text-secondary text-3xl"></i> 12+ Years Exp</div>
+</div>
+</div>
+</section>
+<!-- Program Details Section -->
+<section class="py-24" id="about">
+<div class="container mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="order-2 lg:order-1 relative gsap-fade">
+<div class="absolute -inset-4 bg-secondary/10 rounded-3xl transform -rotate-3 -z-10"></div>
+<img alt="Canada Immigration" class="rounded-3xl shadow-xl w-full h-[500px] object-cover" src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80"/>
+<div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-xl max-w-xs border border-gray-100">
+<div class="flex gap-4 items-center">
+<div class="w-14 h-14 rounded-full bg-primary text-white flex items-center justify-center text-2xl"><i class="fa-solid fa-file-contract"></i></div>
+<div>
+<h4 class="font-bold text-primary">Fully Compliant</h4>
+<p class="text-sm text-gray-500">IRCC regulations</p>
+</div>
+</div>
+</div>
+</div>
+<div class="order-1 lg:order-2 gsap-fade">
+<h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">Why the <span class="text-secondary">Visitor to Work Permit</span> Policy is a Game Changer</h2>
+<p class="text-gray-600 text-lg mb-6 leading-relaxed">
+                        Historically, applying for a work permit required you to leave Canada and apply from your home country. With the temporary public policy, you can now transition seamlessly while residing in Canada. 
+                    </p>
+<ul class="space-y-4 mb-8">
+<li class="flex gap-4">
+<i class="fa-solid fa-circle-check text-secondary mt-1 text-lg"></i>
+<span class="text-gray-600 text-lg"><strong>Work Legally:</strong> Accept employment immediately while your application is in process.</span>
+</li>
+<li class="flex gap-4">
+<i class="fa-solid fa-circle-check text-secondary mt-1 text-lg"></i>
+<span class="text-gray-600 text-lg"><strong>Pathway to PR:</strong> Gaining Canadian work experience significantly boosts your Comprehensive Ranking System (CRS) score for Express Entry.</span>
+</li>
+<li class="flex gap-4">
+<i class="fa-solid fa-circle-check text-secondary mt-1 text-lg"></i>
+<span class="text-gray-600 text-lg"><strong>Save Time &amp; Money:</strong> Avoid costly flights and lengthy consular processing times.</span>
+</li>
+</ul>
+<a class="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-xl font-semibold hover:bg-secondary transition-colors" href="#apply-section">Find Out If You Qualify <i class="fa-solid fa-arrow-up text-sm"></i></a>
+</div>
+</div>
+</div>
+</section>
+<!-- How it Works -->
+<section class="py-24 bg-white" id="process">
+<div class="container mx-auto px-6 lg:px-12">
+<div class="text-center max-w-3xl mx-auto mb-16 gsap-fade">
+<h2 class="text-3xl md:text-5xl font-bold text-primary mb-6">Our 4-Step Process</h2>
+<p class="text-gray-600 text-lg">We make complex immigration laws simple. Here is how we secure your future in Canada.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative mt-16" id="process-grid">
+<!-- Connect Line -->
+<div class="hidden lg:block absolute top-12 left-[12%] right-[12%] h-1.5 bg-blue-100 z-0 rounded-full overflow-hidden"><div class="h-full bg-blue-500 w-full transform origin-left scale-x-0 gsap-line"></div></div>
+<div class="text-center relative z-10 gsap-process-step">
+<div class="w-24 h-24 mx-auto bg-white border-4 border-blue-50 text-blue-600 rounded-full flex items-center justify-center text-3xl font-extrabold shadow-xl mb-6 transition-all duration-500 hover:scale-110 hover:border-blue-500 hover:shadow-[0_10px_30px_-10px_rgba(37,99,235,0.4)] relative z-10">1</div>
+<h3 class="text-xl font-bold text-primary mb-3">Free Assessment</h3>
+<p class="text-gray-600">Fill out our form to see if you meet the specific criteria of the VOWP policy.</p>
+</div>
+<div class="text-center relative z-10 gsap-process-step">
+<div class="w-24 h-24 mx-auto bg-white border-4 border-blue-50 text-blue-600 rounded-full flex items-center justify-center text-3xl font-extrabold shadow-xl mb-6 transition-all duration-500 hover:scale-110 hover:border-blue-500 hover:shadow-[0_10px_30px_-10px_rgba(37,99,235,0.4)] relative z-10">2</div>
+<h3 class="text-xl font-bold text-primary mb-3">Strategy Plan</h3>
+<p class="text-gray-600">We analyze your LMIA or employer offer and draft a customized submission strategy.</p>
+</div>
+<div class="text-center relative z-10 gsap-process-step">
+<div class="w-24 h-24 mx-auto bg-white border-4 border-blue-50 text-blue-600 rounded-full flex items-center justify-center text-3xl font-extrabold shadow-xl mb-6 transition-all duration-500 hover:scale-110 hover:border-blue-500 hover:shadow-[0_10px_30px_-10px_rgba(37,99,235,0.4)] relative z-10">3</div>
+<h3 class="text-xl font-bold text-primary mb-3">Application Review</h3>
+<p class="text-gray-600">Our RCIC experts compile, review, and submit a flawless application to IRCC.</p>
+</div>
+<div class="text-center relative z-10 gsap-process-step">
+<div class="w-24 h-24 mx-auto bg-white border-4 border-blue-50 text-blue-600 rounded-full flex items-center justify-center text-3xl font-extrabold shadow-xl mb-6 transition-all duration-500 hover:scale-110 hover:border-blue-500 hover:shadow-[0_10px_30px_-10px_rgba(37,99,235,0.4)] relative z-10"><i class="fa-solid fa-check"></i></div>
+<h3 class="text-xl font-bold text-primary mb-3">Approval &amp; Work</h3>
+<p class="text-gray-600">Receive your work permit and officially begin your professional career in Canada.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-24 bg-primary text-white" id="testimonials">
+<div class="container mx-auto px-6 lg:px-12">
+<div class="text-center max-w-3xl mx-auto mb-16 gsap-fade">
+<h2 class="text-3xl md:text-5xl font-bold mb-6">Client Success Stories</h2>
+<p class="text-blue-200 text-lg">Hear from people who transformed their visitor status into a thriving Canadian career.</p>
+</div>
+<div class="swiper testimonialSwiper pb-16 gsap-fade">
+<div class="swiper-wrapper">
+<!-- Slide 1 -->
+<div class="swiper-slide h-auto">
+<div class="bg-white text-gray-800 p-8 rounded-2xl shadow-xl h-full flex flex-col justify-between">
+<div>
+<div class="flex text-secondary mb-6 text-xl"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+<p class="italic text-lg mb-8 leading-relaxed">"Brightlight Immigration made the impossible possible. I came as a visitor and found an employer, but didn't know how to proceed. They handled my work permit flawlessly. Highly recommended!"</p>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 bg-gray-100 rounded-full flex items-center justify-center font-bold text-2xl text-primary">A</div>
+<div>
+<h4 class="font-bold text-primary text-lg">Amanpreet S.</h4>
+<p class="text-sm text-gray-500">Approved in 4 weeks</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Slide 2 -->
+<div class="swiper-slide h-auto">
+<div class="bg-white text-gray-800 p-8 rounded-2xl shadow-xl h-full flex flex-col justify-between">
+<div>
+<div class="flex text-secondary mb-6 text-xl"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+<p class="italic text-lg mb-8 leading-relaxed">"Their professionalism is unmatched. I was worried about my expiring visitor record, but the RCIC took over, submitted the LMIA exempt application, and I am now working full-time in BC."</p>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 bg-gray-100 rounded-full flex items-center justify-center font-bold text-2xl text-primary">M</div>
+<div>
+<h4 class="font-bold text-primary text-lg">Maria G.</h4>
+<p class="text-sm text-gray-500">Transitioned successfully</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Slide 3 -->
+<div class="swiper-slide h-auto">
+<div class="bg-white text-gray-800 p-8 rounded-2xl shadow-xl h-full flex flex-col justify-between">
+<div>
+<div class="flex text-secondary mb-6 text-xl"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+<p class="italic text-lg mb-8 leading-relaxed">"I had a previous refusal and was very anxious. Brightlight structured my file so well that it got approved without any issues. Thank you for changing my life!"</p>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 bg-gray-100 rounded-full flex items-center justify-center font-bold text-2xl text-primary">R</div>
+<div>
+<h4 class="font-bold text-primary text-lg">Raj P.</h4>
+<p class="text-sm text-gray-500">Overturned Refusal</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper-pagination mt-8"></div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-24 bg-light" id="faq">
+<div class="container mx-auto px-6 lg:px-12 max-w-4xl">
+<div class="text-center mb-16 gsap-fade">
+<h2 class="text-3xl md:text-5xl font-bold text-primary mb-6">Frequently Asked Questions</h2>
+<p class="text-gray-600 text-lg">Everything you need to know about the VOWP program.</p>
+</div>
+<div class="space-y-4 gsap-fade">
+<!-- FAQ Item -->
+<div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden" x-data="{ open: false }">
+<button @click="open = !open" class="w-full px-8 py-6 text-left font-bold text-lg text-primary flex justify-between items-center focus:outline-none">
+<span>Do I need an immigration consultant?</span>
+<div :class="open ? 'rotate-180 bg-primary text-white' : ''" class="w-8 h-8 rounded-full bg-blue-50 text-primary flex items-center justify-center transition-transform duration-300">
+<i class="fa-solid fa-chevron-down"></i>
+</div>
+</button>
+<div x-collapse="" x-show="open">
+<div class="px-8 pb-6 text-gray-600 text-lg leading-relaxed border-t border-gray-100 pt-4">
+                            While not legally required, hiring a Regulated Canadian Immigration Consultant (RCIC) maximizes your approval chances by avoiding common pitfalls, ensuring complete documentation, and navigating complex policies effectively.
+                        </div>
+</div>
+</div>
+<!-- FAQ Item -->
+<div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden" x-data="{ open: false }">
+<button @click="open = !open" class="w-full px-8 py-6 text-left font-bold text-lg text-primary flex justify-between items-center focus:outline-none">
+<span>How long does the process take?</span>
+<div :class="open ? 'rotate-180 bg-primary text-white' : ''" class="w-8 h-8 rounded-full bg-blue-50 text-primary flex items-center justify-center transition-transform duration-300">
+<i class="fa-solid fa-chevron-down"></i>
+</div>
+</button>
+<div x-collapse="" x-show="open">
+<div class="px-8 pb-6 text-gray-600 text-lg leading-relaxed border-t border-gray-100 pt-4">
+                            Processing times vary depending on the specific program, your country of residence, and IRCC's current backlog. We ensure your application is submitted perfectly to avoid any unnecessary delays from missing information.
+                        </div>
+</div>
+</div>
+<!-- FAQ Item -->
+<div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden" x-data="{ open: false }">
+<button @click="open = !open" class="w-full px-8 py-6 text-left font-bold text-lg text-primary flex justify-between items-center focus:outline-none">
+<span>What happens if I don't have a job offer yet?</span>
+<div :class="open ? 'rotate-180 bg-primary text-white' : ''" class="w-8 h-8 rounded-full bg-blue-50 text-primary flex items-center justify-center transition-transform duration-300">
+<i class="fa-solid fa-chevron-down"></i>
+</div>
+</button>
+<div x-collapse="" x-show="open">
+<div class="px-8 pb-6 text-gray-600 text-lg leading-relaxed border-t border-gray-100 pt-4">
+                            To convert a visitor visa to a work permit under this specific policy, an employer-specific job offer (often with an LMIA or LMIA-exemption) is required. We can advise you on what type of offer is needed so you know exactly what to look for.
+                        </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<section class="py-24 bg-gradient-to-b from-blue-50/50 to-white relative overflow-hidden" id="apply-section"><div class="blob bg-blue-300 w-[600px] h-[600px] rounded-full top-0 right-[-200px]"></div><div class="container mx-auto px-6 lg:px-12 relative z-10"><div class="max-w-3xl mx-auto"><div class="text-center mb-12 gsap-reveal"><h2 class="text-4xl md:text-5xl font-extrabold text-primary mb-4">Ready to start?</h2><p class="text-xl text-gray-600">Fill out our quick assessment and see if you qualify instantly.</p></div><div class="gsap-reveal" id="apply">
+<div class="bg-white/90 backdrop-blur-xl rounded-[2rem] shadow-[0_20px_60px_-15px_rgba(37,99,235,0.15)] ring-1 ring-blue-100 overflow-hidden relative" x-data="formApp()">
+<!-- Progress Bar -->
+<div class="h-2 w-full bg-gray-100">
+<div :style="`width: ${(step / totalSteps) * 100}%`" class="h-full bg-secondary transition-all duration-500 ease-out"></div>
+</div>
+<div class="p-8 md:p-10">
+<div class="text-center mb-8" x-show="!isSuccess">
+<h3 class="text-2xl md:text-3xl font-extrabold text-primary mb-2">Check Your Eligibility</h3>
+<p class="text-gray-500 text-sm">Takes less than 60 seconds to complete</p>
+</div>
+<!-- Success State -->
+<div class="text-center py-10" x-cloak="" x-show="isSuccess" x-transition:enter="transition ease-out duration-500" x-transition:enter-end="opacity-100 transform scale-100" x-transition:enter-start="opacity-0 transform scale-90">
+<div class="w-24 h-24 bg-green-100 text-green-500 rounded-full flex items-center justify-center text-5xl mx-auto mb-6">
+<i class="fa-solid fa-check"></i>
+</div>
+<h3 class="text-3xl font-bold text-primary mb-4">Application Received!</h3>
+<p class="text-gray-600 text-lg">Thank you, <span class="font-semibold" x-text="formData.name"></span>. Our immigration experts will review your details and contact you at <span class="font-semibold" x-text="formData.email"></span> within 24 hours.</p>
+</div>
+<form @submit.prevent="submitForm" x-show="!isSuccess">
+<!-- Step 1 -->
+<div x-cloak="" x-show="step === 1" x-transition:enter="transition ease-out duration-500 ease-out" x-transition:enter-end="opacity-100 transform translate-x-0" x-transition:enter-start="opacity-0 transform translate-x-4">
+<label class="block text-lg font-semibold text-primary mb-6">Are you currently inside Canada as a visitor?</label>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<label class="cursor-pointer">
+<input class="hidden" type="radio" value="Yes" x-model="formData.q1"/>
+<div class="option-label rounded-xl p-5 text-center text-gray-600">Yes, I am</div>
+</label>
+<label class="cursor-pointer">
+<input class="hidden" type="radio" value="No" x-model="formData.q1"/>
+<div class="option-label rounded-xl p-5 text-center text-gray-600">No, I am not</div>
+</label>
+</div>
+<div class="mt-8 flex justify-end">
+<button :disabled="!formData.q1" @click="nextStep()" class="btn-primary text-white px-8 py-3 rounded-xl font-semibold transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2" type="button">
+                                            Next Step <i class="fa-solid fa-arrow-right"></i>
+</button>
+</div>
+</div>
+<!-- Step 2 -->
+<div x-cloak="" x-show="step === 2" x-transition:enter="transition ease-out duration-500 ease-out" x-transition:enter-end="opacity-100 transform translate-x-0" x-transition:enter-start="opacity-0 transform translate-x-4">
+<label class="block text-lg font-semibold text-primary mb-6">Do you have a valid visitor status?</label>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<label class="cursor-pointer">
+<input class="hidden" type="radio" value="Yes" x-model="formData.q2"/>
+<div class="option-label rounded-xl p-5 text-center text-gray-600">Yes, it is valid</div>
+</label>
+<label class="cursor-pointer">
+<input class="hidden" type="radio" value="No" x-model="formData.q2"/>
+<div class="option-label rounded-xl p-5 text-center text-gray-600">No / Expired</div>
+</label>
+</div>
+<div class="mt-8 flex justify-between">
+<button @click="prevStep()" class="text-gray-500 hover:text-primary font-semibold px-4 py-3 flex items-center gap-2 transition-colors" type="button"><i class="fa-solid fa-arrow-left"></i> Back</button>
+<button :disabled="!formData.q2" @click="nextStep()" class="btn-primary text-white px-8 py-3 rounded-xl font-semibold transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2" type="button">
+                                            Next Step <i class="fa-solid fa-arrow-right"></i>
+</button>
+</div>
+</div>
+<!-- Step 3 -->
+<div x-cloak="" x-show="step === 3" x-transition:enter="transition ease-out duration-500 ease-out" x-transition:enter-end="opacity-100 transform translate-x-0" x-transition:enter-start="opacity-0 transform translate-x-4">
+<label class="block text-lg font-semibold text-primary mb-6">Do you have a job offer from a Canadian employer?</label>
+<div class="grid grid-cols-1 gap-4">
+<label class="cursor-pointer">
+<input class="hidden" type="radio" value="LMIA" x-model="formData.q3"/>
+<div class="option-label rounded-xl p-4 text-left px-6 text-gray-600">Yes, supported by an LMIA</div>
+</label>
+<label class="cursor-pointer">
+<input class="hidden" type="radio" value="Exempt" x-model="formData.q3"/>
+<div class="option-label rounded-xl p-4 text-left px-6 text-gray-600">Yes, LMIA exempt</div>
+</label>
+<label class="cursor-pointer">
+<input class="hidden" type="radio" value="No" x-model="formData.q3"/>
+<div class="option-label rounded-xl p-4 text-left px-6 text-gray-600">No, I need help finding an employer</div>
+</label>
+</div>
+<div class="mt-8 flex justify-between">
+<button @click="prevStep()" class="text-gray-500 hover:text-primary font-semibold px-4 py-3 flex items-center gap-2 transition-colors" type="button"><i class="fa-solid fa-arrow-left"></i> Back</button>
+<button :disabled="!formData.q3" @click="nextStep()" class="btn-primary text-white px-8 py-3 rounded-xl font-semibold transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2" type="button">
+                                            Next Step <i class="fa-solid fa-arrow-right"></i>
+</button>
+</div>
+</div>
+<!-- Step 4 -->
+<div x-cloak="" x-show="step === 4" x-transition:enter="transition ease-out duration-500 ease-out" x-transition:enter-end="opacity-100 transform translate-x-0" x-transition:enter-start="opacity-0 transform translate-x-4">
+<label class="block text-lg font-semibold text-primary mb-6">Where should we send your results?</label>
+<div class="space-y-4">
+<input class="input-field" placeholder="Full Name" required="" type="text" x-model="formData.name"/>
+<input class="input-field" placeholder="Email Address" required="" type="email" x-model="formData.email"/>
+<input class="input-field" placeholder="Phone Number" required="" type="tel" x-model="formData.phone"/>
+</div>
+<div class="mt-8 flex justify-between">
+<button @click="prevStep()" class="text-gray-500 hover:text-primary font-semibold px-4 py-3 flex items-center gap-2 transition-colors" type="button"><i class="fa-solid fa-arrow-left"></i> Back</button>
+<button :disabled="!formData.name || !formData.email || !formData.phone || isSubmitting" class="bg-secondary text-white px-8 py-3 rounded-xl font-semibold hover:bg-[#b49120] transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2 shadow-lg" type="submit">
+<span x-show="!isSubmitting">Get My Results</span>
+<span x-show="isSubmitting"><i class="fa-solid fa-spinner fa-spin"></i> Submitting...</span>
+<i class="fa-solid fa-paper-plane" x-show="!isSubmitting"></i>
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div></div></div></section><footer class="bg-dark text-white pt-20 pb-10">
+<div class="container mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
+<div>
+<a class="flex items-center gap-2 mb-6" href="#">
+<img alt="Brightlight Immigration" class="h-12 object-contain brightness-0 invert" src="https://res.cloudinary.com/dkqo3uz5o/image/upload/v1776960199/brightlight-main-logo_amxfxh.webp"/>
+</a>
+<p class="text-gray-400 leading-relaxed mb-6">Trusted RCIC-licensed immigration consultants in Surrey, BC. We simplify Express Entry, BCPNP, visas, work permits &amp; refusal cases.</p>
+<div class="flex gap-4"><a class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-secondary transition-colors" href="https://ca.linkedin.com/in/loveneet-paneswar-5b2377198"><i class="fa-brands fa-linkedin-in"></i></a><a class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-secondary transition-colors" href="https://www.facebook.com/brightlightimmigration"><i class="fa-brands fa-facebook-f"></i></a><a class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-secondary transition-colors" href="https://www.instagram.com/brightlightimmigration"><i class="fa-brands fa-instagram"></i></a><a class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-secondary transition-colors" href="https://www.youtube.com/channel/UC2NJoKhIOconAE_IFCxX7uA"><i class="fa-brands fa-youtube"></i></a><a class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-secondary transition-colors" href="https://www.tiktok.com/@brightlightimmigration"><i class="fa-brands fa-tiktok"></i></a></div>
+</div>
+<div>
+<h4 class="text-xl font-bold mb-6 text-white border-b border-gray-800 pb-4">Quick Links</h4>
+<ul class="space-y-3">
+<li><a class="text-gray-400 hover:text-secondary transition-colors" href="#about">Program Details</a></li>
+<li><a class="text-gray-400 hover:text-secondary transition-colors" href="#process">How it Works</a></li>
+<li><a class="text-gray-400 hover:text-secondary transition-colors" href="#testimonials">Success Stories</a></li>
+<li><a class="text-gray-400 hover:text-secondary transition-colors" href="#faq">FAQ</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-xl font-bold mb-6 text-white border-b border-gray-800 pb-4">Contact Us</h4>
+<ul class="space-y-4">
+<li class="flex items-start gap-3">
+<i class="fa-solid fa-location-dot mt-1 text-secondary"></i>
+<span class="text-gray-400">15315 66 Ave Unit 327<br/>Surrey, BC V3S 2A1</span>
+</li>
+<li class="flex items-center gap-3">
+<i class="fa-solid fa-phone text-secondary"></i>
+<a class="text-gray-400 hover:text-white" href="tel:+16045033734">+1 604-503-3734</a>
+</li>
+<li class="flex items-center gap-3">
+<i class="fa-solid fa-envelope text-secondary"></i>
+<a class="text-gray-400 hover:text-white" href="mailto:info@brightlightimmigration.ca">info@brightlightimmigration.ca</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
+<p>© 2026 Brightlight Immigration Inc. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+        // Alpine.js Form Component
+        function formApp() {
+            return {
+                step: 1,
+                totalSteps: 4,
+                isSubmitting: false,
+                isSuccess: false,
+                formData: {
+                    q1: '', q2: '', q3: '',
+                    name: '', email: '', phone: ''
+                },
+                nextStep() { if(this.step < this.totalSteps) this.step++; },
+                prevStep() { if(this.step > 1) this.step--; },
+                submitForm() {
+                    this.isSubmitting = true;
+                    // Simulate API Call for Prospect IQ
+                    setTimeout(() => {
+                        this.isSubmitting = false;
+                        this.isSuccess = true;
+                    }, 1500);
+                }
+            }
+        }
+
+        // Swiper Init
+        document.addEventListener('DOMContentLoaded', function() {
+            new Swiper(".testimonialSwiper", {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                pagination: { el: ".swiper-pagination", clickable: true },
+                breakpoints: {
+                    768: { slidesPerView: 2 },
+                    1024: { slidesPerView: 3 }
+                }
+            });
+
+            // GSAP Animations
+            gsap.registerPlugin(ScrollTrigger);
+            
+            gsap.from(".gsap-reveal", {
+                y: 50,
+                opacity: 0,
+                duration: 1.2,
+                stagger: 0.15,
+                ease: "power4.out",
+                clearProps: "all"
+            });
+
+            gsap.utils.toArray('.gsap-fade').forEach(elem => {
+                gsap.from(elem, {
+                    scrollTrigger: {
+                        trigger: elem,
+                        start: "top 85%",
+                        toggleActions: "play none none reverse"
+                    },
+                    y: 50,
+                    opacity: 0,
+                    duration: 1,
+                    ease: "power3.out"
+                });
+            });
+            
+            
+            // Process Animation
+            gsap.to(".gsap-line", {
+                scaleX: 1,
+                ease: "none",
+                scrollTrigger: {
+                    trigger: ".gsap-process-step",
+                    start: "top 60%",
+                    end: "top 20%",
+                    scrub: 1
+                }
+            });
+
+            gsap.from(".gsap-process-step", {
+                y: 50,
+                opacity: 0,
+                duration: 0.8,
+                stagger: 0.2,
+                scrollTrigger: {
+                    trigger: "#process-grid",
+                    start: "top 80%",
+                    toggleActions: "play none none reverse"
+                }
+            });
+    
+            // Subtle parallax for blobs
+            gsap.to(".blob", {
+                yPercent: 20,
+                ease: "none",
+                scrollTrigger: {
+                    trigger: "body",
+                    start: "top top",
+                    end: "bottom top",
+                    scrub: 1
+                }
+            });
+        });
+    </script>
+</body>
+</html>
