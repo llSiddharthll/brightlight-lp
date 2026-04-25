@@ -3,7 +3,7 @@ import { loveneetProfile } from "../data/sharedContent.js";
 
 export default function MeetLoveneet() {
   return (
-    <section className="section-shell bg-light" id="expert">
+    <section className="section-shell bg-light pt-8 pb-24" id="expert">
       <div className="container-page">
         <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
           <div className="relative overflow-hidden rounded-[36px] border border-slate-200 bg-white shadow-soft">

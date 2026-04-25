@@ -57,7 +57,7 @@ export default function GoogleReviews() {
   const row2 = reviews.slice(2, 5);
 
   return (
-    <section className="section-shell bg-white overflow-hidden py-24" id="reviews">
+    <section className="section-shell bg-white overflow-hidden pt-24 pb-8" id="reviews">
       <div className="container-page mb-16">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-12">
           <div className="max-w-2xl">
@@ -128,7 +128,7 @@ export default function GoogleReviews() {
           whileInView={{ opacity: 1 }}
           className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-slate-50 border border-slate-100 text-slate-500 text-sm font-medium"
         >
-          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_logo_2015.svg" className="h-4 mr-2 opacity-60" alt="Google" />
+          <img src="https://www.gstatic.com/images/branding/product/1x/googleg_48dp.png" className="h-4 w-4 mr-2" alt="Google" />
           Average approval rate: <span className="text-primary font-bold">98%</span>
         </motion.div>
       </div>
