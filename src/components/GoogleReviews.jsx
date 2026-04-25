@@ -5,20 +5,20 @@ import { reviews } from "../data/sharedContent.js";
 const ReviewCard = ({ review }) => (
   <motion.div 
     whileHover={{ y: -5, scale: 1.02 }}
-    className="flex-none w-[350px] p-6 mx-3 rounded-[32px] bg-white border border-slate-100 shadow-xl shadow-slate-200/50 relative group"
+    className="flex-none w-[350px] min-h-[220px] p-8 mx-3 rounded-[32px] bg-white border border-slate-100 shadow-xl shadow-slate-200/50 relative group whitespace-normal"
   >
-    <div className="absolute top-6 right-6 text-slate-50 group-hover:text-secondary/10 transition-colors">
+    <div className="absolute top-6 right-8 text-slate-50 group-hover:text-secondary/10 transition-colors">
       <MessageCircle size={40} fill="currentColor" />
     </div>
     
-    <div className="flex items-center gap-4 mb-4">
+    <div className="flex items-center gap-4 mb-5">
       <img
         src={review.image}
         alt={review.name}
         className="h-12 w-12 rounded-2xl object-cover ring-2 ring-slate-100"
       />
       <div>
-        <h3 className="font-bold text-primary">{review.name}</h3>
+        <h3 className="font-bold text-primary tracking-tight">{review.name}</h3>
         <div className="flex gap-0.5 text-secondary">
           {Array.from({ length: review.rating }).map((_, i) => (
             <Star key={i} size={14} fill="currentColor" />
@@ -27,7 +27,7 @@ const ReviewCard = ({ review }) => (
       </div>
     </div>
     
-    <p className="text-slate-600 leading-relaxed text-sm italic">
+    <p className="text-slate-600 leading-relaxed text-sm italic line-clamp-4">
       "{review.text}"
     </p>
   </motion.div>
