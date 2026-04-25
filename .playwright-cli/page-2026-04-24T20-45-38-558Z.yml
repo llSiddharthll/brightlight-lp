@@ -1,0 +1,430 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Brightlight Immigration home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Brightlight Immigration" [ref=e6]
+      - navigation [ref=e7]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Services" [ref=e9] [cursor=pointer]:
+          - /url: "#services"
+        - link "Reviews" [ref=e10] [cursor=pointer]:
+          - /url: "#reviews"
+        - button "Programs" [ref=e12] [cursor=pointer]
+      - generic [ref=e13]:
+        - link "+1 604-503-3734" [ref=e14] [cursor=pointer]:
+          - /url: tel:+16045033734
+        - link "Free Consultation" [ref=e15] [cursor=pointer]:
+          - /url: "#apply-section"
+  - main [ref=e16]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: Free Immigration Consultation
+        - heading "Get Clear Work Permit Guidance Before You Apply" [level=1] [ref=e21]
+        - paragraph [ref=e22]: Book a free consultation with Brightlight Immigration to review your eligibility, documents, and next best immigration step.
+        - generic [ref=e23]:
+          - link "Book Free Consultation" [ref=e24] [cursor=pointer]:
+            - /url: "#apply-section"
+            - text: Book Free Consultation
+            - img [ref=e25]
+          - link "View Services" [ref=e27] [cursor=pointer]:
+            - /url: "#services"
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - img [ref=e30]
+            - generic [ref=e33]:
+              - heading "RCIC-Licensed Review" [level=3] [ref=e34]
+              - paragraph [ref=e35]: Know your realistic options
+          - generic [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e40]:
+              - heading "Fast Qualification" [level=3] [ref=e41]
+              - paragraph [ref=e42]: Start with a 60-second form
+      - generic [ref=e43]:
+        - img "Free Immigration Consultation" [ref=e44]
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - paragraph [ref=e48]: Trusted by
+            - paragraph [ref=e49]: 5,000+ applicants
+          - generic "Five star rating" [ref=e50]: ★★★★★
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - img [ref=e54]
+        - generic [ref=e57]: RCIC Licensed
+      - generic [ref=e58]:
+        - img [ref=e59]
+        - generic [ref=e62]: 5,000+ Visas
+      - generic [ref=e63]:
+        - img [ref=e64]
+        - generic [ref=e66]: 12+ Years Experience
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - paragraph [ref=e70]: Why Book First
+        - heading "Avoid guessing on eligibility, documents, and timing" [level=2] [ref=e71]
+        - paragraph [ref=e72]: Immigration decisions are expensive when they are rushed or based on incomplete advice. A free consultation gives you a focused review before you choose the right work permit path.
+        - list [ref=e73]:
+          - listitem [ref=e74]:
+            - img [ref=e75]
+            - text: Confirm which work permit stream fits your situation.
+          - listitem [ref=e78]:
+            - img [ref=e79]
+            - text: Understand document gaps before filing.
+          - listitem [ref=e82]:
+            - img [ref=e83]
+            - text: Get next steps from an RCIC-licensed team.
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - paragraph [ref=e92]: Step 1 of 4
+          - heading "Book Your Free Consultation" [level=3] [ref=e93]
+          - paragraph [ref=e94]: Takes about 60 seconds to complete.
+        - generic [ref=e95]:
+          - group "Which service are you most interested in?" [ref=e96]:
+            - generic [ref=e97]: Which service are you most interested in?
+            - generic [ref=e98]:
+              - generic [ref=e99] [cursor=pointer]:
+                - radio "VOWP" [ref=e100]
+                - text: VOWP
+              - generic [ref=e101] [cursor=pointer]:
+                - radio "PGWP" [ref=e102]
+                - text: PGWP
+              - generic [ref=e103] [cursor=pointer]:
+                - radio "Spousal Work Permit" [ref=e104]
+                - text: Spousal Work Permit
+              - generic [ref=e105] [cursor=pointer]:
+                - radio "Francophone" [ref=e106]
+                - text: Francophone
+          - group "Where are you currently located?" [ref=e107]:
+            - generic [ref=e108]: Where are you currently located?
+            - generic [ref=e109]:
+              - generic [ref=e110] [cursor=pointer]:
+                - radio "Inside Canada" [ref=e111]
+                - text: Inside Canada
+              - generic [ref=e112] [cursor=pointer]:
+                - radio "Outside Canada" [ref=e113]
+                - text: Outside Canada
+              - generic [ref=e114] [cursor=pointer]:
+                - radio "Planning to travel" [ref=e115]
+                - text: Planning to travel
+          - group "How soon would you like to start?" [ref=e116]:
+            - generic [ref=e117]: How soon would you like to start?
+            - generic [ref=e118]:
+              - generic [ref=e119] [cursor=pointer]:
+                - radio "Immediately" [ref=e120]
+                - text: Immediately
+              - generic [ref=e121] [cursor=pointer]:
+                - radio "Within 30 days" [ref=e122]
+                - text: Within 30 days
+              - generic [ref=e123] [cursor=pointer]:
+                - radio "Just exploring" [ref=e124]
+                - text: Just exploring
+          - group "Do you have sufficient funds for application and settlement expenses?" [ref=e125]:
+            - generic [ref=e126]: Do you have sufficient funds for application and settlement expenses?
+            - generic [ref=e127]:
+              - generic [ref=e128] [cursor=pointer]:
+                - radio "Yes" [ref=e129]
+                - text: "Yes"
+              - generic [ref=e130] [cursor=pointer]:
+                - radio "No" [ref=e131]
+                - text: "No"
+              - generic [ref=e132] [cursor=pointer]:
+                - radio "Need guidance" [ref=e133]
+                - text: Need guidance
+          - group [ref=e134]:
+            - generic [ref=e135] [cursor=pointer]:
+              - checkbox "I understand the free consultation is an eligibility review and Brightlight will verify my options before recommending a pathway." [ref=e136]
+              - generic [ref=e137]: I understand the free consultation is an eligibility review and Brightlight will verify my options before recommending a pathway.
+        - generic [ref=e138]:
+          - button "Back" [disabled] [ref=e139]
+          - button "Next" [disabled] [ref=e140]
+    - generic [ref=e142]:
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - paragraph [ref=e145]: Services
+          - heading "Choose the pathway you want reviewed" [level=2] [ref=e146]
+        - link "Book First" [ref=e147] [cursor=pointer]:
+          - /url: "#apply-section"
+      - generic [ref=e148]:
+        - link "Visitor to Work Permit VOWP Visitor to Work Permit Apply for an employer-specific work permit from inside Canada with guidance from RCIC-licensed immigration professionals. View page" [ref=e149] [cursor=pointer]:
+          - /url: /vowp
+          - img "Visitor to Work Permit" [ref=e150]
+          - generic [ref=e151]:
+            - paragraph [ref=e152]: VOWP
+            - heading "Visitor to Work Permit" [level=3] [ref=e153]
+            - paragraph [ref=e154]: Apply for an employer-specific work permit from inside Canada with guidance from RCIC-licensed immigration professionals.
+            - generic [ref=e155]:
+              - text: View page
+              - img [ref=e156]
+        - link "Post-Graduation Work Permit PGWP Post-Graduation Work Permit For eligible international graduates, a PGWP can unlock Canadian work experience and future permanent residence options. View page" [ref=e158] [cursor=pointer]:
+          - /url: /pgwp
+          - img "Post-Graduation Work Permit" [ref=e159]
+          - generic [ref=e160]:
+            - paragraph [ref=e161]: PGWP
+            - heading "Post-Graduation Work Permit" [level=3] [ref=e162]
+            - paragraph [ref=e163]: For eligible international graduates, a PGWP can unlock Canadian work experience and future permanent residence options.
+            - generic [ref=e164]:
+              - text: View page
+              - img [ref=e165]
+        - link "Spousal Open Work Permit Spousal Work Permit Spousal Open Work Permit Bring your family plans and work authorization together with a carefully prepared spousal open work permit file. View page" [ref=e167] [cursor=pointer]:
+          - /url: /spousal
+          - img "Spousal Open Work Permit" [ref=e168]
+          - generic [ref=e169]:
+            - paragraph [ref=e170]: Spousal Work Permit
+            - heading "Spousal Open Work Permit" [level=3] [ref=e171]
+            - paragraph [ref=e172]: Bring your family plans and work authorization together with a carefully prepared spousal open work permit file.
+            - generic [ref=e173]:
+              - text: View page
+              - img [ref=e174]
+        - link "Francophone Mobility Program Francophone Francophone Mobility Program Use French language ability and eligible employer support to pursue LMIA-exempt work authorization outside Quebec. View page" [ref=e176] [cursor=pointer]:
+          - /url: /franco
+          - img "Francophone Mobility Program" [ref=e177]
+          - generic [ref=e178]:
+            - paragraph [ref=e179]: Francophone
+            - heading "Francophone Mobility Program" [level=3] [ref=e180]
+            - paragraph [ref=e181]: Use French language ability and eligible employer support to pursue LMIA-exempt work authorization outside Quebec.
+            - generic [ref=e182]:
+              - text: View page
+              - img [ref=e183]
+    - generic [ref=e186]:
+      - generic [ref=e187]:
+        - generic [ref=e188]:
+          - paragraph [ref=e189]: Google Reviews
+          - heading "Client-rated immigration guidance" [level=2] [ref=e190]
+        - generic [ref=e191]:
+          - generic [ref=e192]: "4.8"
+          - generic [ref=e193]: Google rating
+      - generic [ref=e194]:
+        - article [ref=e195]:
+          - generic [ref=e196]:
+            - img "Rhea Patel" [ref=e197]
+            - generic [ref=e198]:
+              - heading "Rhea Patel" [level=3] [ref=e199]
+              - generic "5 star review" [ref=e200]:
+                - img [ref=e201]
+                - img [ref=e203]
+                - img [ref=e205]
+                - img [ref=e207]
+                - img [ref=e209]
+          - img [ref=e211]
+          - paragraph [ref=e214]: "\"Loveneet at Bright Light Immigration was professional, knowledgeable, and always available to answer questions. The entire process was smooth, and I felt supported every step of the way.\""
+        - generic [ref=e215]:
+          - article [ref=e216]:
+            - img "Rajinder Singh" [ref=e217]
+            - generic [ref=e218]:
+              - generic "5 star review" [ref=e219]:
+                - img [ref=e220]
+                - img [ref=e222]
+                - img [ref=e224]
+                - img [ref=e226]
+                - img [ref=e228]
+              - paragraph [ref=e230]: "\"I applied for my study permit extension on the day my study permit was expiring and still got it approved. Their hard work and knowledge in the field got the work done.\""
+              - heading "Rajinder Singh" [level=3] [ref=e231]
+          - article [ref=e232]:
+            - img "Mehak Sekhon" [ref=e233]
+            - generic [ref=e234]:
+              - generic "4 star review" [ref=e235]:
+                - img [ref=e236]
+                - img [ref=e238]
+                - img [ref=e240]
+                - img [ref=e242]
+              - paragraph [ref=e244]: "\"Your seamless knowledge, attention to detail, and clear communication set you apart as the best migration agent. I wholeheartedly recommend your services.\""
+              - heading "Mehak Sekhon" [level=3] [ref=e245]
+          - article [ref=e246]:
+            - img "Harleen Sidhu" [ref=e247]
+            - generic [ref=e248]:
+              - generic "4 star review" [ref=e249]:
+                - img [ref=e250]
+                - img [ref=e252]
+                - img [ref=e254]
+                - img [ref=e256]
+              - paragraph [ref=e258]: "\"I applied for BCPNP under the Health Care Authority with Loveneet's assistance and was approved in just two days. The team provided quick responses to all queries.\""
+              - heading "Harleen Sidhu" [level=3] [ref=e259]
+    - generic [ref=e261]:
+      - generic [ref=e262]:
+        - img "Loveneet Paneswar, Regulated Canadian Immigration Consultant" [ref=e263]
+        - generic [ref=e265]:
+          - img "Loveneet Paneswar" [ref=e266]
+          - generic [ref=e267]:
+            - paragraph [ref=e268]: Loveneet Paneswar
+            - paragraph [ref=e269]: Regulated Canadian Immigration Consultant
+      - generic [ref=e270]:
+        - paragraph [ref=e271]: Meet Loveneet Paneswar
+        - heading "RCIC-licensed support for important decisions" [level=2] [ref=e272]
+        - paragraph [ref=e273]: Brightlight Immigration is led by Loveneet Paneswar, a licensed RCIC and member in good standing with the College of Immigration and Citizenship Consultants. Her team uses a practical, document-first process to flag eligibility concerns early and recommend a realistic next step before you invest in an application.
+        - generic [ref=e274]:
+          - paragraph [ref=e275]: Your trusted "ally" in Canadian Immigration
+          - paragraph [ref=e276]: Express Entry, BCPNP, family sponsorship, work permits, study visas, and complex refusal cases.
+        - generic [ref=e277]:
+          - generic [ref=e278]:
+            - img [ref=e279]
+            - generic [ref=e282]: "RCIC License # R522969"
+          - generic [ref=e283]:
+            - img [ref=e284]
+            - generic [ref=e287]: 12+ years of Canadian immigration experience
+          - generic [ref=e288]:
+            - img [ref=e289]
+            - generic [ref=e292]: Surrey, BC office
+          - generic [ref=e293]:
+            - img [ref=e294]
+            - generic [ref=e297]: English, Punjabi, and Hindi
+        - generic [ref=e298]:
+          - link "LinkedIn" [ref=e299] [cursor=pointer]:
+            - /url: https://ca.linkedin.com/in/loveneet-paneswar-5b2377198
+            - img [ref=e300]
+            - text: LinkedIn
+          - link "RCIC Appointment" [ref=e304] [cursor=pointer]:
+            - /url: https://book.brightlightimmigration.ca/contact-us
+            - img [ref=e305]
+            - text: RCIC Appointment
+    - generic [ref=e309]:
+      - generic [ref=e310]:
+        - generic [ref=e311]:
+          - paragraph [ref=e312]: Video Reels
+          - heading "Real client approval stories" [level=2] [ref=e313]
+        - link "Watch Channel" [ref=e314] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UC2NJoKhIOconAE_IFCxX7uA
+      - generic [ref=e315]:
+        - link "Sukhwinder Singh video testimonial Client approval story Sukhwinder Singh" [ref=e316] [cursor=pointer]:
+          - /url: https://www.youtube.com/watch?v=y5Pz7WPm41w
+          - generic [ref=e317]:
+            - img "Sukhwinder Singh video testimonial" [ref=e318]
+            - img [ref=e322]
+          - generic [ref=e324]:
+            - paragraph [ref=e325]: Client approval story
+            - heading "Sukhwinder Singh" [level=3] [ref=e326]
+        - link "Manpreet Kaur video testimonial Client testimonial Manpreet Kaur" [ref=e327] [cursor=pointer]:
+          - /url: https://www.youtube.com/watch?v=Ex-w2fTfMn8
+          - generic [ref=e328]:
+            - img "Manpreet Kaur video testimonial" [ref=e329]
+            - img [ref=e333]
+          - generic [ref=e335]:
+            - paragraph [ref=e336]: Client testimonial
+            - heading "Manpreet Kaur" [level=3] [ref=e337]
+        - link "Amandeep Kaur video testimonial Application journey Amandeep Kaur" [ref=e338] [cursor=pointer]:
+          - /url: https://www.youtube.com/watch?v=gIb5gfIqxdI
+          - generic [ref=e339]:
+            - img "Amandeep Kaur video testimonial" [ref=e340]
+            - img [ref=e344]
+          - generic [ref=e346]:
+            - paragraph [ref=e347]: Application journey
+            - heading "Amandeep Kaur" [level=3] [ref=e348]
+        - link "Navjot Kaur video testimonial Client experience Navjot Kaur" [ref=e349] [cursor=pointer]:
+          - /url: https://www.youtube.com/watch?v=lBnYycZ1aSY
+          - generic [ref=e350]:
+            - img "Navjot Kaur video testimonial" [ref=e351]
+            - img [ref=e355]
+          - generic [ref=e357]:
+            - paragraph [ref=e358]: Client experience
+            - heading "Navjot Kaur" [level=3] [ref=e359]
+        - link "Harpreet Kaur video testimonial Approval update Harpreet Kaur" [ref=e360] [cursor=pointer]:
+          - /url: https://www.youtube.com/watch?v=uPhje0jwtuo
+          - generic [ref=e361]:
+            - img "Harpreet Kaur video testimonial" [ref=e362]
+            - img [ref=e366]
+          - generic [ref=e368]:
+            - paragraph [ref=e369]: Approval update
+            - heading "Harpreet Kaur" [level=3] [ref=e370]
+        - link "Ranjit Singh video testimonial Brightlight review Ranjit Singh" [ref=e371] [cursor=pointer]:
+          - /url: https://www.youtube.com/watch?v=eZTZE1ixfjU
+          - generic [ref=e372]:
+            - img "Ranjit Singh video testimonial" [ref=e373]
+            - img [ref=e377]
+          - generic [ref=e379]:
+            - paragraph [ref=e380]: Brightlight review
+            - heading "Ranjit Singh" [level=3] [ref=e381]
+    - generic [ref=e383]:
+      - generic [ref=e384]:
+        - generic [ref=e385]:
+          - paragraph [ref=e386]: Success Stories
+          - heading "Client success stories" [level=2] [ref=e387]
+          - paragraph [ref=e388]: Real client stories across Brightlight work permit services.
+        - generic [ref=e389]: Strategy, documents, submission, follow-up
+      - generic [ref=e390]:
+        - article [ref=e391]:
+          - generic [ref=e392]:
+            - img [ref=e393]
+            - img [ref=e395]
+            - img [ref=e397]
+            - img [ref=e399]
+            - img [ref=e401]
+          - paragraph [ref=e403]: "\"Brightlight Immigration made the process clear. I had an employer offer but did not know how to proceed, and their team handled the file with care.\""
+          - generic [ref=e404]:
+            - generic [ref=e405]: A
+            - generic [ref=e406]:
+              - heading "Amanpreet S." [level=3] [ref=e407]
+              - paragraph [ref=e408]: Approved in 4 weeks
+        - article [ref=e409]:
+          - generic [ref=e410]:
+            - img [ref=e411]
+            - img [ref=e413]
+            - img [ref=e415]
+            - img [ref=e417]
+            - img [ref=e419]
+          - paragraph [ref=e421]: "\"I was worried about my expiring visitor record. The consultant explained my options and helped me submit a stronger work permit application.\""
+          - generic [ref=e422]:
+            - generic [ref=e423]: M
+            - generic [ref=e424]:
+              - heading "Maria G." [level=3] [ref=e425]
+              - paragraph [ref=e426]: Transitioned successfully
+        - article [ref=e427]:
+          - generic [ref=e428]:
+            - img [ref=e429]
+            - img [ref=e431]
+            - img [ref=e433]
+            - img [ref=e435]
+            - img [ref=e437]
+          - paragraph [ref=e439]: "\"After a previous refusal, I needed a proper strategy. Brightlight structured the file so the concerns were addressed clearly.\""
+          - generic [ref=e440]:
+            - generic [ref=e441]: R
+            - generic [ref=e442]:
+              - heading "Raj P." [level=3] [ref=e443]
+              - paragraph [ref=e444]: Refusal concerns addressed
+  - contentinfo [ref=e445]:
+    - generic [ref=e446]:
+      - generic [ref=e447]:
+        - generic [ref=e448]:
+          - img "Brightlight Immigration" [ref=e449]
+          - paragraph [ref=e450]: Trusted RCIC-licensed immigration consultants in Surrey, BC. We simplify work permits, visas, permanent residence pathways, and refusal concerns.
+          - generic [ref=e451]:
+            - link "Brightlight social profile" [ref=e452] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/in/loveneet-paneswar-5b2377198
+              - img [ref=e453]
+            - link "Brightlight social profile" [ref=e457] [cursor=pointer]:
+              - /url: https://www.facebook.com/brightlightimmigration
+              - img [ref=e458]
+            - link "Brightlight social profile" [ref=e460] [cursor=pointer]:
+              - /url: https://www.instagram.com/brightlightimmigration
+              - img [ref=e461]
+            - link "Brightlight social profile" [ref=e464] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UC2NJoKhIOconAE_IFCxX7uA
+              - img [ref=e465]
+        - generic [ref=e468]:
+          - heading "Programs" [level=3] [ref=e469]
+          - list [ref=e470]:
+            - listitem [ref=e471]:
+              - link "VOWP" [ref=e472] [cursor=pointer]:
+                - /url: /vowp
+            - listitem [ref=e473]:
+              - link "PGWP" [ref=e474] [cursor=pointer]:
+                - /url: /pgwp
+            - listitem [ref=e475]:
+              - link "Spousal Work Permit" [ref=e476] [cursor=pointer]:
+                - /url: /spousal
+            - listitem [ref=e477]:
+              - link "Francophone" [ref=e478] [cursor=pointer]:
+                - /url: /franco
+        - generic [ref=e479]:
+          - heading "Contact" [level=3] [ref=e480]
+          - list [ref=e481]:
+            - listitem [ref=e482]:
+              - img [ref=e483]
+              - generic [ref=e486]: 15315 66 Ave Unit 327, Surrey, BC V3S 2A1
+            - listitem [ref=e487]:
+              - img [ref=e488]
+              - link "+1 604-503-3734" [ref=e490] [cursor=pointer]:
+                - /url: tel:+16045033734
+            - listitem [ref=e491]:
+              - img [ref=e492]
+              - link "info@brightlightimmigration.ca" [ref=e495] [cursor=pointer]:
+                - /url: mailto:info@brightlightimmigration.ca
+      - generic [ref=e496]: © 2026 Brightlight Immigration Inc. All rights reserved.
