@@ -15,8 +15,7 @@ const homeHero = {
   title: "Brightlight Immigration",
   description:
     "Not sure what to do next with your work permit? Don’t guess. Get a clear answer on your eligibility, documents, and next move—before you apply.",
-  heroImage:
-    "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+  heroImage: "/images/home_hero_1777109594276.png",
   highlights: [
     { title: "RCIC-LED REVIEW", text: "Know what actually works for your case" },
     { title: "Quick check", text: "Start with a 60-second review" },

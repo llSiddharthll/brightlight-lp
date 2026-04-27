@@ -1,8 +1,43 @@
+# Dependencies
 node_modules/
-dist/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+.playwright-cli/
+
+# Production
+/dist
+/output
+
+# Misc
+.DS_Store
+*.pem
+
+# Env
 .env
-.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vercel
 .vercel
+
+# Project specific
 docs/
-legecy-html/
+legacy-html/
+.codex
+.gemini/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo

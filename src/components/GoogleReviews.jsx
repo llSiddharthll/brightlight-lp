@@ -69,12 +69,19 @@ export default function GoogleReviews() {
               {supportingReviews.map((review) => (
                 <article key={review.name} className="review-card bg-white text-slate-900 p-5">
                   <div className="flex items-center gap-3">
-                    <img
-                      src={review.image}
-                      alt={review.name}
-                      className="h-12 w-12 flex-none rounded-2xl object-cover"
-                      loading="lazy"
-                    />
+                    {review.image ? (
+                      <img
+                        src={review.image}
+                        alt={review.name}
+                        className="h-12 w-12 flex-none rounded-2xl object-cover"
+                        loading="lazy"
+                        onError={(e) => (e.target.style.display = "none")}
+                      />
+                    ) : (
+                      <div className="flex h-12 w-12 flex-none items-center justify-center rounded-2xl bg-slate-100 font-bold text-primary">
+                        {review.name.charAt(0)}
+                      </div>
+                    )}
                     <div>
                       <h3 className="font-semibold text-slate-900">{review.name}</h3>
                       <div className="mt-1 flex gap-1 text-secondary" aria-label={`${review.rating} star review`}>

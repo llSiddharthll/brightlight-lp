@@ -7,13 +7,10 @@ export default function MeetLoveneet() {
       <div className="container-page">
         <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
           <div className="relative overflow-hidden rounded-[36px] border border-slate-200 bg-white shadow-soft">
-            <div className="absolute left-5 top-5 inline-flex items-center gap-2 rounded-full border border-secondary/15 bg-secondary/10 px-4 py-2 text-sm font-semibold text-secondary">
-              <Shield size={18} /> RCIC-regulated consultant
-            </div>
             <img
               src={loveneetProfile.image}
               alt="Loveneet Paneswar, Regulated Canadian Immigration Consultant"
-              className="h-[540px] w-full object-cover"
+              className="h-auto w-full object-cover"
             />
             <div className="absolute inset-x-6 bottom-6 rounded-[28px] border border-slate-200 bg-white/95 p-6 shadow-soft backdrop-blur">
               <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">

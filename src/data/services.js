@@ -7,10 +7,8 @@ export const services = [
     shortTitle: "VOWP",
     description:
       "Move from visitor status to a work permit with a structured, compliant approach.",
-    heroImage:
-      "https://images.unsplash.com/photo-1551836022-6d1f0f1a7d9f?auto=format&fit=crop&w=1200&q=80",
-    aboutImage:
-      "https://images.unsplash.com/photo-1527181152855-fc03fc7949c8?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/vowp_hero_1777109255968.png",
+    aboutImage: "/images/vowp_about_1777109272572.png",
     highlights: [
       { title: "No Exit Required", text: "Apply from inside Canada" },
       { title: "Document Strategy", text: "Employer offer and policy review" },
@@ -118,10 +116,8 @@ export const services = [
     shortTitle: "PGWP",
     description:
       "Turn your studies into Canadian work experience and stronger PR options.",
-    heroImage:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
-    aboutImage:
-      "https://images.unsplash.com/photo-1497493292307-31c376b6e479?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/pgwp_hero_1777109289026.png",
+    aboutImage: "/images/pgwp_about_1777109307436.png",
     highlights: [
       { title: "Open Work Permit", text: "Work for most employers" },
       { title: "PR Pathway", text: "Build Canadian experience" },
@@ -228,10 +224,8 @@ export const services = [
     shortTitle: "Spousal Work Permit",
     description:
       "Work legally in Canada while aligning your application with your partner’s status.",
-    heroImage:
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=1200&q=80",
-    aboutImage:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/spousal_hero_1777109327207.png",
+    aboutImage: "/images/spousal_about_1777109342796.png",
     highlights: [
       { title: "Open Work Permit", text: "No LMIA required" },
       { title: "Family Focused", text: "Live and work together" },
@@ -338,10 +332,8 @@ export const services = [
     shortTitle: "Francophone",
     description:
       "Use French language ability to access LMIA-exempt work permits and new opportunities.",
-    heroImage:
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
-    aboutImage:
-      "https://images.unsplash.com/photo-1516251193007-45ef944ab0c6?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/franco_hero_1777109362706.png",
+    aboutImage: "/images/franco_about_1777109383430.png",
     highlights: [
       { title: "LMIA Exempt", text: "For eligible French speakers" },
       { title: "Outside Quebec", text: "Live and work across Canada" },
