@@ -8,6 +8,7 @@ import Navbar from "../components/Navbar.jsx";
 import ReelsSection from "../components/ReelsSection.jsx";
 import Testimonials from "../components/Testimonials.jsx";
 import TrustBar from "../components/TrustBar.jsx";
+import SEO from "../components/SEO.jsx";
 import { consultationQuestions, services } from "../data/services.js";
 
 const homeHero = {
@@ -27,6 +28,11 @@ const homeTestimonials = services.flatMap((service) => service.testimonials).sli
 export default function Home() {
   return (
     <>
+      <SEO 
+        title="Brightlight Immigration | Expert Canadian Immigration Consultants"
+        description="Get professional guidance on Canadian work permits (VOWP, PGWP, SOWP) and PR pathways from RCIC-regulated consultants. Book your free consultation today."
+        url="https://www.brightlightimmigration.ca/"
+      />
       <Navbar />
       <main>
         <Hero service={homeHero} home />

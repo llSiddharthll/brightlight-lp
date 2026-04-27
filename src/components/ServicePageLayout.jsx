@@ -10,10 +10,17 @@ import ProcessSteps from "./ProcessSteps.jsx";
 import ReelsSection from "./ReelsSection.jsx";
 import Testimonials from "./Testimonials.jsx";
 import TrustBar from "./TrustBar.jsx";
+import SEO from "./SEO.jsx";
 
 export default function ServicePageLayout({ service }) {
   return (
     <>
+      <SEO 
+        title={`${service.title} | Brightlight Immigration`}
+        description={service.description}
+        image={service.heroImage}
+        url={`https://www.brightlightimmigration.ca${service.path}`}
+      />
       <Navbar />
       <main>
         <Hero service={service} />
