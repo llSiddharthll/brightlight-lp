@@ -4,3 +4,5 @@ dist/
 .env.*
 npm-debug.log*
 .vercel
+docs/
+legecy-html/

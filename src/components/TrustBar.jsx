@@ -1,6 +1,7 @@
-import { Award, BadgeCheck, Star } from "lucide-react";
+import { Award, BadgeCheck, Star, Users } from "lucide-react";
 
 const items = [
+  [Users, "5,000+ applicants"],
   [BadgeCheck, "RCIC Licensed"],
   [Award, "5,000+ Visas"],
   [Star, "12+ Years Experience"],

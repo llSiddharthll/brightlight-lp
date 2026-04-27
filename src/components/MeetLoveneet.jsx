@@ -3,24 +3,38 @@ import { loveneetProfile } from "../data/sharedContent.js";
 
 export default function MeetLoveneet() {
   return (
-    <section className="section-shell bg-light pt-8 pb-24" id="expert">
+    <section className="section-shell bg-light" id="expert">
       <div className="container-page">
         <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
           <div className="relative overflow-hidden rounded-[36px] border border-slate-200 bg-white shadow-soft">
+            <div className="absolute left-5 top-5 inline-flex items-center gap-2 rounded-full border border-secondary/15 bg-secondary/10 px-4 py-2 text-sm font-semibold text-secondary">
+              <Shield size={18} /> RCIC-regulated consultant
+            </div>
             <img
               src={loveneetProfile.image}
               alt="Loveneet Paneswar, Regulated Canadian Immigration Consultant"
-              className="w-full h-auto object-cover"
+              className="h-[540px] w-full object-cover"
             />
+            <div className="absolute inset-x-6 bottom-6 rounded-[28px] border border-slate-200 bg-white/95 p-6 shadow-soft backdrop-blur">
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                <div>
+                  <p className="text-sm uppercase tracking-[0.18em] text-secondary">Trusted RCIC guidance</p>
+                  <p className="mt-2 text-3xl font-extrabold text-primary">{loveneetProfile.name}</p>
+                  <p className="mt-1 text-sm font-semibold text-slate-600">{loveneetProfile.title}</p>
+                </div>
+                <div className="rounded-full border border-slate-200 bg-slate-100 px-4 py-2 text-sm font-semibold text-primary">
+                  {loveneetProfile.license}
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="space-y-6">
             <div className="rounded-[32px] border border-slate-200 bg-white p-8 shadow-soft">
-              <p className="eyebrow">Brightlight RCIC leadership</p>
-              <h2 className="section-title mt-3">A licensed consultant for confident Canadian immigration decisions</h2>
+              <p className="eyebrow">RCIC LEADERSHIP</p>
+              <h2 className="section-title mt-3">Guidance you can rely on</h2>
               <p className="mt-5 text-lg leading-8 text-slate-600">
-                Loveneet Paneswar is a licensed RCIC and member in good standing with the College of Immigration and Citizenship Consultants.
-                She provides accountable, document-first guidance for work permit and immigration pathways, so your next step is built on real eligibility.
+                Every case is handled with a document-first approach—so your next step is based on facts, not assumptions.
               </p>
               <div className="mt-8 grid gap-4 sm:grid-cols-2">
                 <div className="feature-card">

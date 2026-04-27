@@ -35,9 +35,9 @@ export default function Hero({ service, home = false }) {
           </div>
 
           <div className="mt-8 grid gap-3 sm:grid-cols-3">
-            <div className="hero-pill">Trusted RCIC support</div>
+            <div className="hero-pill">Real guidance</div>
             <div className="hero-pill">Free discovery call</div>
-            <div className="hero-pill">Clear next step after review</div>
+            <div className="hero-pill">Clear next steps—no confusion</div>
           </div>
         </div>
 
@@ -56,7 +56,7 @@ export default function Hero({ service, home = false }) {
               </div>
               <div className="text-right text-accent" aria-label="Five star rating">
                 ★★★★★
-                <p className="text-xs text-slate-500">Excellent reviews</p>
+                <p className="text-xs text-slate-500">Top-rated reviews</p>
               </div>
             </div>
           </div>

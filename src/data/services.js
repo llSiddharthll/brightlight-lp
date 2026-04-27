@@ -6,11 +6,11 @@ export const services = [
     title: "Turn Your Visit into a Career Opportunity",
     shortTitle: "VOWP",
     description:
-      "Apply for an employer-specific work permit from inside Canada with guidance from RCIC-licensed immigration professionals.",
+      "Move from visitor status to a work permit with a structured, compliant approach.",
     heroImage:
-      "/images/vowp_hero_1777109255968.png",
+      "https://images.unsplash.com/photo-1551836022-6d1f0f1a7d9f?auto=format&fit=crop&w=1200&q=80",
     aboutImage:
-      "/images/vowp_about_1777109272572.png",
+      "https://images.unsplash.com/photo-1527181152855-fc03fc7949c8?auto=format&fit=crop&w=1200&q=80",
     highlights: [
       { title: "No Exit Required", text: "Apply from inside Canada" },
       { title: "Document Strategy", text: "Employer offer and policy review" },
@@ -117,11 +117,11 @@ export const services = [
     title: "Launch Your Career in Canada",
     shortTitle: "PGWP",
     description:
-      "For eligible international graduates, a PGWP can unlock Canadian work experience and future permanent residence options.",
+      "Turn your studies into Canadian work experience and stronger PR options.",
     heroImage:
-      "/images/pgwp_hero_1777109289026.png",
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
     aboutImage:
-      "/images/pgwp_about_1777109307436.png",
+      "https://images.unsplash.com/photo-1497493292307-31c376b6e479?auto=format&fit=crop&w=1200&q=80",
     highlights: [
       { title: "Open Work Permit", text: "Work for most employers" },
       { title: "PR Pathway", text: "Build Canadian experience" },
@@ -227,11 +227,11 @@ export const services = [
     title: "Work in Canada While Staying Close to Your Spouse",
     shortTitle: "Spousal Work Permit",
     description:
-      "Bring your family plans and work authorization together with a carefully prepared spousal open work permit file.",
+      "Work legally in Canada while aligning your application with your partner’s status.",
     heroImage:
-      "/images/spousal_hero_1777109327207.png",
+      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=1200&q=80",
     aboutImage:
-      "/images/spousal_about_1777109342796.png",
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80",
     highlights: [
       { title: "Open Work Permit", text: "No LMIA required" },
       { title: "Family Focused", text: "Live and work together" },
@@ -337,11 +337,11 @@ export const services = [
     title: "Parlez-vous Francais? Work in Canada",
     shortTitle: "Francophone",
     description:
-      "Use French language ability and eligible employer support to pursue LMIA-exempt work authorization outside Quebec.",
+      "Use French language ability to access LMIA-exempt work permits and new opportunities.",
     heroImage:
-      "/images/franco_hero_1777109362706.png",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
     aboutImage:
-      "/images/franco_about_1777109383430.png",
+      "https://images.unsplash.com/photo-1516251193007-45ef944ab0c6?auto=format&fit=crop&w=1200&q=80",
     highlights: [
       { title: "LMIA Exempt", text: "For eligible French speakers" },
       { title: "Outside Quebec", text: "Live and work across Canada" },

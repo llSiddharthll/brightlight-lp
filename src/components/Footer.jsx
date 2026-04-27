@@ -8,11 +8,11 @@ export default function Footer() {
       <div className="container-page py-16">
         <div className="mb-10 rounded-[28px] border border-white/10 bg-white/5 p-8 text-center text-white shadow-soft sm:flex sm:items-center sm:justify-between sm:p-10">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-blue-100">Ready to get clarity?</p>
-            <p className="mt-3 text-2xl font-extrabold">Book your free Brightlight consultation today.</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-blue-100">READY TO MOVE FORWARD?</p>
+            <p className="mt-3 text-2xl font-extrabold">Start with clarity—not guesswork. Your next step matters. Make it the right one.</p>
           </div>
           <a href="#apply-section" className="btn-primary mt-4 inline-flex sm:mt-0">
-            Start free consultation
+            Start Free Consultation
           </a>
         </div>
 
@@ -20,8 +20,7 @@ export default function Footer() {
           <div>
             <img src={company.logo} alt="Brightlight Immigration" className="mb-5 h-12 w-auto brightness-0 invert" />
             <p className="max-w-md text-slate-300">
-              Trusted RCIC-licensed immigration consultants in Surrey, BC. We simplify work permits,
-              visas, permanent residence pathways, and refusal concerns.
+              RCIC-licensed immigration consultants in Surrey, BC. We handle work permits, visas, PR pathways, and complex cases with clarity and structure.
             </p>
             <div className="mt-6 flex gap-3">
               {[

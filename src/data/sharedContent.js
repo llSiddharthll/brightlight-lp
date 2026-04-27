@@ -64,9 +64,9 @@ export const loveneetProfile = {
   license: "RCIC License # R522969",
   rcicNumber: "R522969",
   ciccMembership: "Member in good standing with CICC",
-  experience: "13+ years of Canadian immigration experience",
-  image: "/images/loveneet_real.jpg",
-  profileImage: "/images/loveneet_real.jpg",
+  experience: "12+ years of Canadian immigration experience",
+  image: "https://images.unsplash.com/photo-1544739313-5f0174d0ad64?auto=format&fit=crop&w=1200&q=80",
+  profileImage: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1200&q=80",
   linkedin: "https://ca.linkedin.com/in/loveneet-paneswar-5b2377198",
   booking: "https://book.brightlightimmigration.ca/contact-us",
 };
